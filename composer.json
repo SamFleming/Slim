@@ -15,6 +15,11 @@
     "require": {
         "php": ">=5.3.0"
     },
+    "extra": {
+        "branch-alias": {
+            "dev-webroot": "2.*.x-dev"
+        }
+    },
     "autoload": {
         "psr-0": { "Slim": "." }
     }
